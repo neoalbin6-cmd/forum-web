@@ -29,7 +29,9 @@ body{
   background:white;
   height:120px;
   width:100%;
-  top:95px;
+  top:35px;
+    display:flex;
+    padding-right:50px;
 }
 .bottombox{
   background:white;
