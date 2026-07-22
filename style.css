@@ -2,7 +2,7 @@
   max-width:600px;
   line-height:1.8;
   color:white;
-  font-size:40px
+  font-size:40px;
   font-family:calibri;
 }
 .head{
@@ -19,7 +19,7 @@ body{
   min-height:4500px;
 }
 .scroll{
-  colour:orange
+  background:orange;
   height:95px;
   position:fixed;
   width:100%;
