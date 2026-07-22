@@ -1,8 +1,13 @@
 .para1{
   max-width:600px;
   line-height:1.8;
-  color:green;
+  color:white;
 }
 .head{
-  color:blue;
+  color:gold;
+  font-size:50px;
+  font-family:times new roman; 
+}
+body{
+  background:gray;
 }
