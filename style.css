@@ -1,4 +1,8 @@
-.about{
+.para1{
   max-width:600px;
   line-height:1.8;
+  colour:violet;
+}
+.head{
+  colour:blue;
 }
