@@ -21,5 +21,12 @@ body{
 .header{
   background:white;
   height:120px;
+  width:100%;
 }
-
+.bottombox{
+  background:white;
+  height:120px;
+  position:fixed;
+  bottom:0;
+  width:100%;
+}
