@@ -9,7 +9,7 @@
 color:navy;
 font-size:50px;
 font-family:"Times New Roman", serif;
-padding-top:25px;
+padding-top:50px;
 padding-left:35px;
 margin:0;
 }
@@ -31,8 +31,7 @@ body{
   width:100%;
   top:35px;
     display:flex;
-    padding-right:50px;
-}
+    }
 .bottombox{
   background:white;
   height:40px;
