@@ -30,3 +30,11 @@ body{
   bottom:0;
   width:100%;
 }
+.footer{
+  color:navy;
+font-size:50px;
+font-family:"Times New Roman", serif;
+padding-top:25px;
+padding-left:35px;
+margin:0;
+}
