@@ -67,7 +67,7 @@
 
     color:#0b2d73;
     font-family:"Times New Roman", serif;
-    font-size:56px;
+    font-size:44px;          /* Was 56px */
     font-weight:bold;
     letter-spacing:2px;
 
@@ -78,8 +78,6 @@
         2px 2px 0 #d9d9d9,
         3px 3px 0 #bfbfbf,
         5px 5px 8px rgba(0,0,0,0.45);
-
-    padding:0;      /* Remove old padding */
 }
 body{
   background:navy;
@@ -126,12 +124,13 @@ body{
 }
 .header{
     background:linear-gradient(to bottom,#ffffff,#ececec);
-    height:120px;
+
     width:100%;
+    padding:8px 0;
 
     display:flex;
-    justify-content:center;   /* Horizontal center */
-    align-items:center;       /* Vertical center */
+    justify-content:center;
+    align-items:center;
 
     border-bottom:3px solid orange;
 
