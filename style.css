@@ -193,7 +193,8 @@ body{
     background:linear-gradient(to bottom,#ffffff,#ececec);
 
     width:100%;
-    padding:12px 0;
+
+    padding:22px 0;      /* Increased from 12px */
 
     display:flex;
     justify-content:center;
@@ -307,20 +308,21 @@ body{
 /* Header */
 
 .header{
-    padding:18px 10px;
+    padding:30px 15px;
 }
 
 .head{
-    font-size:30px;
-    letter-spacing:1px;
+    font-size:34px;
+    line-height:1.2;
 }
 
 .title-line{
-    width:180px;
+    width:220px;
+    margin:12px 0 10px;
 }
 
 .tagline{
-    font-size:16px;
+    font-size:18px;
 }
 
 /* Intro */
