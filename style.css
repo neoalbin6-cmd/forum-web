@@ -54,13 +54,46 @@
     margin:0;
 }
 
+.contact-container{
+    display:flex;
+    gap:120px;
+    align-items:flex-start;
+    margin-top:18px;
+    flex-wrap:wrap;
+}
+
 .address{
     color:white;
     font-family:Calibri, sans-serif;
     font-size:18px;
     line-height:1.8;
-    max-width:500px;
-    margin-top:15px;
+    margin:0;
+}
+
+.contact-details{
+    color:white;
+    font-family:Calibri, sans-serif;
+    font-size:18px;
+}
+
+.contact-details p{
+    margin:0 0 14px 0;
+}
+
+.label{
+    color:gold;
+    font-weight:bold;
+}
+
+.contact-details a{
+    color:white;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.contact-details a:hover{
+    color:orange;
+    text-decoration:underline;
 }
 .head{
     margin:0;
