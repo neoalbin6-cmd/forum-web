@@ -192,18 +192,19 @@ body{
     box-shadow:0 3px 10px rgba(0,0,0,0.25);
 }
 .bottombox{
-  background:white;
-  height:40px;
-  position:fixed;
-  bottom:0;
-  width:100%;
-  display:flex;
-  align-items:center;
-  justify-content:center;
+    background:white;
+    height:36px;          /* Reduced to match smaller text */
+    position:fixed;
+    bottom:0;
+    width:100%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 .footer{
-  color:navy;
-font-size:25px;
-font-family:"Times New Roman", serif;
-margin:0;
+    color:navy;
+    font-size:22px;      /* Was 25px, reduced by 3px */
+    font-family:"Times New Roman", serif;
+    margin:0;
 }
