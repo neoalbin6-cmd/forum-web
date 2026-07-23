@@ -100,8 +100,7 @@ body{
 .scroll button:active{
     transform:scale(0.96);
 }
-}
-  .header{
+.header{
   background:white;
   height:120px;
   width:100%;
