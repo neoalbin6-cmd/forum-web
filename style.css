@@ -278,3 +278,115 @@ body{
     display:inline-block;
     width:180px;
 }
+/* ===========================
+   MOBILE RESPONSIVE
+=========================== */
+
+@media screen and (max-width:768px){
+
+body{
+    padding-top:60px;
+}
+
+/* Navigation */
+
+.scroll{
+    height:auto;
+    padding:10px;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.scroll a{
+    width:80px;
+    height:32px;
+    font-size:14px;
+}
+
+/* Header */
+
+.header{
+    padding:18px 10px;
+}
+
+.head{
+    font-size:30px;
+    letter-spacing:1px;
+}
+
+.title-line{
+    width:180px;
+}
+
+.tagline{
+    font-size:16px;
+}
+
+/* Intro */
+
+.intro-strip{
+    padding:15px;
+}
+
+.para1{
+    font-size:17px;
+    line-height:1.5;
+}
+
+/* Sections */
+
+.section{
+    margin:35px auto;
+    padding:0 18px;
+}
+
+.section-heading{
+    font-size:25px;
+}
+
+.latin{
+    font-size:18px;
+}
+
+.content{
+    font-size:17px;
+    text-align:left;
+}
+
+.list{
+    font-size:17px;
+    padding-left:25px;
+}
+
+/* Contact section */
+
+.contact-container{
+    gap:25px;
+    flex-direction:column;
+}
+
+.address,
+.contact-details{
+    font-size:17px;
+}
+
+/* Info Box */
+
+.info-box{
+    padding:18px;
+}
+
+.info-box span{
+    width:auto;
+    display:block;
+    margin-bottom:4px;
+}
+
+/* Footer */
+
+.footer{
+    font-size:18px;
+}
+
+}
