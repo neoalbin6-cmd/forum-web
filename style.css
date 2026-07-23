@@ -63,23 +63,23 @@
     margin-top:15px;
 }
 .head{
-    color:#0b2d73;
-    font-size:56px;
-    font-family:"Times New Roman", serif;
-    font-weight:bold;
-
-   
-    dispaly:flex;
-    justify-content:centre;
     margin:0;
 
+    color:#0b2d73;
+    font-family:"Times New Roman", serif;
+    font-size:56px;
+    font-weight:bold;
     letter-spacing:2px;
+
+    text-align:center;
 
     text-shadow:
         1px 1px 0 #ffffff,
         2px 2px 0 #d9d9d9,
         3px 3px 0 #bfbfbf,
-        4px 4px 6px rgba(0,0,0,0.45);
+        5px 5px 8px rgba(0,0,0,0.45);
+
+    padding:0;      /* Remove old padding */
 }
 body{
   background:navy;
@@ -130,7 +130,8 @@ body{
     width:100%;
 
     display:flex;
-    align-items:center;
+    justify-content:center;   /* Horizontal center */
+    align-items:center;       /* Vertical center */
 
     border-bottom:3px solid orange;
 
