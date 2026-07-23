@@ -13,9 +13,9 @@
 .intro-strip{
     background:orange;
     width:100%;
-
-    padding:22px 35px;
     box-sizing:border-box;
+
+    padding:8px 35px;   /* Reduced top & bottom padding */
 
     display:flex;
     justify-content:center;
