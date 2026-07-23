@@ -80,9 +80,10 @@
         5px 5px 8px rgba(0,0,0,0.45);
 }
 body{
-  background:navy;
-  margin-TOP:35;
-  }
+    background:navy;
+    margin:0;
+    padding-top:35px;   /* Equal to fixed menu height */
+}
 .scroll{
     background:orange;
     height:35px;
