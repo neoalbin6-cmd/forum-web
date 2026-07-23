@@ -270,3 +270,40 @@ body{
 
 
 }
+/* ===========================
+   MOBILE RESPONSIVE
+=========================== */
+
+@media screen and (max-width:768px){
+
+.contact-page{
+    padding:15px;
+    margin-top:70px;
+}
+
+.contact-title{
+    font-size:30px;
+}
+
+.title-line-contact{
+    width:180px;
+}
+
+.contact-card{
+    padding:20px;
+}
+
+.contact-card h2{
+    font-size:24px;
+}
+
+.card-content{
+    font-size:17px;
+}
+
+.card-content h3,
+.person h3{
+    font-size:22px;
+}
+
+}
