@@ -63,7 +63,7 @@ body{
   }
 .scroll{
   background:orange;
-  height:35px;
+  height:45px;
   position:fixed;
   width:100%;
   top:0;
@@ -74,7 +74,7 @@ body{
   background:white;
   height:120px;
   width:100%;
-  top:35px;
+  top:45px;
     display:flex;
     }
 .bottombox{
