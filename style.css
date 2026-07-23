@@ -136,7 +136,8 @@
 body{
     background:navy;
     margin:0;
-    padding-top:35px;   /* Equal to fixed menu height */
+    padding-top:35px;      /* Top fixed menu */
+    padding-bottom:50px;   /* Space for fixed footer */
 }
 .scroll{
     background:orange;
