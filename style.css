@@ -28,7 +28,7 @@ body{
   width:100%;
   top:0;
   display:flex;
-  justify-content:right;
+  justify-content:left;
 }
   .header{
   background:white;
