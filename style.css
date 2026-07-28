@@ -35,64 +35,59 @@ box-shadow:
 
 .section-heading{
 
-font-family:"Times New Roman",serif;
+    font-family:"Times New Roman",serif;
+    font-size:38px;
+    font-weight:bold;
+    letter-spacing:2px;
 
-font-size:36px;
+    color:#24487c;
 
-font-weight:bold;
+    text-shadow:
+    1px 1px 0 white,
+   -1px -1px 0 rgba(120,140,170,.25);
 
-letter-spacing:2px;
+    border-left:8px solid #b08b54;
 
-margin-bottom:18px;
+    padding-left:18px;
 
-padding-left:18px;
-
-border-left:8px solid #b08b54;
-
-color:#214b87;
-
-text-shadow:
-
-0 1px white,
-
-0 2px 5px rgba(0,0,0,.10);
-
+    margin-bottom:18px;
 }
 
 .latin{
 
-font-family:"Palatino Linotype",serif;
+    font-family:"Palatino Linotype",serif;
 
-font-size:23px;
+    font-size:23px;
 
-font-style:italic;
+    font-style:italic;
 
-font-weight:bold;
+    color:#7f6738;
 
-text-align:center;
+    text-align:center;
 
-color:#8b6a2d;
+    text-shadow:
+    1px 1px white,
+   -1px -1px rgba(120,120,120,.18);
 
-margin-bottom:22px;
-
-letter-spacing:1px;
-
+    margin-bottom:22px;
 }
+
 
 .content{
 
-font-family:Calibri,sans-serif;
+    font-family:Calibri,sans-serif;
 
-font-size:20px;
+    font-size:20px;
 
-line-height:2;
+    line-height:2;
 
-text-align:justify;
+    text-align:justify;
 
-color:#22344f;
+    color:#324b69;
 
-font-weight:500;
-
+    text-shadow:
+    1px 1px rgba(255,255,255,.95),
+   -1px -1px rgba(110,130,160,.15);
 }
 
 .contact-container{
@@ -103,32 +98,20 @@ font-weight:500;
     flex-wrap:wrap;
 }
 
-.address{
-
-font-family:Calibri,sans-serif;
-
-font-size:19px;
-
-line-height:1.9;
-
-font-weight:500;
-
-color:#22344f;
-
-}
-
+.address,
 .contact-details{
 
-font-family:Calibri,sans-serif;
+    font-family:Calibri,sans-serif;
 
-font-size:19px;
+    font-size:19px;
 
-line-height:1.9;
+    line-height:1.9;
 
-font-weight:500;
+    color:#324b69;
 
-color:#22344f;
-
+    text-shadow:
+    1px 1px rgba(255,255,255,.95),
+   -1px -1px rgba(110,130,160,.15);
 }
 
 .contact-details p{
@@ -215,30 +198,37 @@ color:#647b96;
 }
 
 body{
-margin:0;
-padding-top:60px;
-padding-bottom:50px;
-background:
-linear-gradient(
-180deg,
-#f4f7fc 0%,
-#d7e2f0 18%,
-#5e7fb3 42%,
-#1d3f77 72%,
-#10244a 100%);
-background-attachment:fixed;
+    margin:0;
+    padding-top:60px;
+    padding-bottom:50px;
+
+    background:
+    linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #f9fbff 25%,
+    #eef4fb 55%,
+    #e2ebf7 80%,
+    #d5e2f3 100%);
+
+    background-attachment:fixed;
 }
 
 body::before{
     content:"";
     position:fixed;
     inset:0;
-  background-image:
-    linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),
-   linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);
-    background-size:45px 45px;
+
+    background:
+    radial-gradient(circle at top right,
+    rgba(70,110,180,.06),
+    transparent 45%),
+
+    radial-gradient(circle at bottom left,
+    rgba(70,110,180,.05),
+    transparent 50%);
+
     pointer-events:none;
-    opacity:.25;
     z-index:-1;
 }
 
@@ -450,12 +440,16 @@ box-shadow:
 }
 
 .section:hover{
-transform:
-translateY(-8px);
-border-color:
-rgba(232,198,106,.35);
-box-shadow:
-0 18px 40px rgba(0,0,0,.42);
+
+    transform:
+    translateY(-12px)
+    scale(1.02);
+
+    box-shadow:
+    -14px -14px 35px rgba(255,255,255,1),
+     20px 20px 40px rgba(110,135,170,.35),
+     0 18px 35px rgba(25,65,120,.15),
+     inset 0 2px 3px rgba(255,255,255,.95);
 }
 
 .scroll a::before{
@@ -492,32 +486,26 @@ pointer-events:none;
 
 .section{
 
-position:relative;
-overflow:hidden;
+    position:relative;
+    overflow:hidden;
 
-max-width:1100px;
+    max-width:1100px;
+    margin:70px auto;
+    padding:45px;
 
-margin:70px auto;
+    background:#fffdfb;
 
-padding:42px;
+    border-radius:26px;
 
-background:
-linear-gradient(
-145deg,
-rgba(255,255,255,.84),
-rgba(255,255,255,.10));
+    border:1px solid #ffffff;
 
-backdrop-filter:blur(18px);
+    box-shadow:
+    -10px -10px 25px rgba(255,255,255,.95),
+     12px 12px 28px rgba(150,170,200,.25),
+     inset 0 2px 3px rgba(255,255,255,.95),
+     inset 0 -2px 5px rgba(180,190,210,.18);
 
-border-radius:22px;
-
-border:1px solid rgba(255,255,255,.35);
-
-box-shadow:
-0 18px 40px rgba(0,0,0,.25);
-
-transition:.4s;
-
+    transition:.45s;
 }
 
 .section::before{
